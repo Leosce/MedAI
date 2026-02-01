@@ -1,7 +1,7 @@
 from langchain_core.runnables.config import RunnableConfig
 from langchain_core.messages import HumanMessage
 from chainlit.data.sql_alchemy import SQLAlchemyDataLayer
-from rag import main
+from app import main
 import chainlit as cl
 from chainlit.types import ThreadDict
 from sqlalchemy.orm import sessionmaker
@@ -78,6 +78,6 @@ if __name__ == "__main__":
     import sys
     import subprocess
     subprocess.run(
-            [sys.executable, "-m", "chainlit", "run", "chainlit_test.py", "-w" ], 
+            [sys.executable, "-m", "chainlit", "run", "chainlit-test.py", "-w" ], 
             cwd="/home/jimmy/Documents/my_langchain_experiments/medibot"
         )
