@@ -1,4 +1,4 @@
-# MediBot 🏥🤖
+# MediBot 
 
 A sophisticated medical assistant application powered by LangChain, LangGraph, and advanced language models. MediBot provides intelligent medical information retrieval, analysis, and guidance through multiple pathways including Retrieval-Augmented Generation (RAG), web search, and conversational AI.
 
