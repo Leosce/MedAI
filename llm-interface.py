@@ -1,7 +1,7 @@
 from langchain_core.runnables.config import RunnableConfig
 from langchain_core.messages import HumanMessage
 from chainlit.data.sql_alchemy import SQLAlchemyDataLayer
-from app3 import main
+from app import main
 import chainlit as cl
 from chainlit.types import ThreadDict
 from sqlalchemy import create_engine, MetaData, Table, and_
